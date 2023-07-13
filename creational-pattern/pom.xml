@@ -11,22 +11,18 @@
     <packaging>pom</packaging>
     <modules>
         <module>singleton-pattern</module>
+        <module>abstractfactory-pattern</module>
+        <module>factotymethod-pattern</module>
+        <module>builder-pattern</module>
+        <module>prototype-pattern</module>
     </modules>
 
     <artifactId>creational-pattern</artifactId>
+    <description>创建型模式</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
 </project>

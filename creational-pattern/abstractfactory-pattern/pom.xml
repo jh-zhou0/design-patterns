@@ -2,28 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>creational-pattern</artifactId>
+        <groupId>cn.zjh</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.zjh</groupId>
-    <artifactId>design-patterns</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>creational-pattern</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>abstractfactory-pattern</artifactId>
+    
+    <description>抽象工厂模式</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
 
 </project>
