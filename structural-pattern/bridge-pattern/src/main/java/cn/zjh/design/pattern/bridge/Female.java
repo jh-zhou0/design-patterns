@@ -1,11 +1,13 @@
+package cn.zjh.design.pattern.bridge;
+
 /**
  * @author zjh - kayson
  */
-public class Man extends Person {
+public class Female extends Person {
 
-    public Man(Clothing clothing) {
+    public Female(Clothing clothing) {
         super(clothing);
-        setName("男人");
+        setName("女人");
     }
 
     @Override

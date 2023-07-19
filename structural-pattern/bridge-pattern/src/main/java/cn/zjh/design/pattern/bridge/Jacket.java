@@ -1,3 +1,5 @@
+package cn.zjh.design.pattern.bridge;
+
 /**
  * @author zjh - kayson
  */
