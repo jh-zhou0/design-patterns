@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>memento-pattern</artifactId>
-
-    <description>备忘录模式</description>
+    <artifactId>templatemethod-pattern</artifactId>
+    
+    <description>模板方法模式</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

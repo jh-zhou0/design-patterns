@@ -23,7 +23,8 @@
         <module>observer-pattern</module>
         <module>state-pattern</module>
         <module>strategy-pattern</module>
-        <module>templatemethod</module>
+        <module>templatemethod-pattern</module>
+        <module>visitor-pattern</module>
     </modules>
 
     <properties>
