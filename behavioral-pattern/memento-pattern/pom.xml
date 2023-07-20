@@ -10,17 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>behavioral-pattern</artifactId>
-    <packaging>pom</packaging>
-
-    <description>行为型模式</description>
-    <modules>
-        <module>cor-pattern</module>
-        <module>command-pattern</module>
-        <module>interpreter-pattern</module>
-        <module>iterator-pattern</module>
-        <module>mediator-pattern</module>
-        <module>memento-pattern</module>
-    </modules>
+    
+    <description>备忘录模式</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
